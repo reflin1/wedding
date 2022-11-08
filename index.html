@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Nikah &mdash; Reflin & Rindu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- ini leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"/>
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+
+	</head>
+	<body>
+
+			<audio loop preload='auto' id="myAudio">
+				<source src="backsound/rindu.mp3">
+			</audio>
+			<a onclick="playAudio()" type="button" id='un-mute' class='tombolmusik'><img src="images/stopmusic.png" width="30px"></a>
+			<a onclick="pauseAudio()" type="button" id='mute' class='tombolmusik'><img src="images/musik.png" width="30px"></a>
+
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="index.html">Nikah<strong>.</strong></a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class="has-dropdown">
+							<ul class="dropdown">
+								<li><a href="#">Web Design</a></li>
+								<li><a href="#">eCommerce</a></li>
+								<li><a href="#">Branding</a></li>
+								<li><a href="#">API</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
+
+	<nav id="wansyah-nav" role="navigation">
+		<!-- 	<div class="container"> -->
+				<!-- <div class="row"> -->
+					<div class="navbar d-menu" style="width:100% !important;">
+					  <a href="#home" class="d-menu2" style="font-family:  Mulish,sans-serif;font-weight: bold;"><i class="icon-home icon-2x" aria-hidden="true"></i><br>Home</a>
+					  <a href="#couple" class="d-menu2" style="font-family: Mulish, sans-serif;font-weight: bold;"><i class="icon-heart2" aria-hidden="true"></i><br>Couple</a>
+					  <a href="#event" class="d-menu2" style="font-family: Mulish, sans-serif;font-weight: bold;"><i class="icon-calendar" aria-hidden="true"></i><br>Events</a>
+					  <a href="#fh5co-couple-story" class="d-menu2" style="font-family: Mulish, sans-serif;font-weight: bold;"><i class="icon-book2" aria-hidden="true"></i><br>Our Story</a>
+					  <a href="#testimonial" class="d-menu2" style="font-family: Mulish, sans-serif;font-weight: bold;"><i class="icon-chat" aria-hidden="true"></i><br>Wishes</a>
+					</div>
+					<div class="nav2nd">
+				
+					</div>
+			
+		</nav>
+
+	<section id="home">
+		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/utama.jpg);" data-stellar-background-ratio="0.5">
+			<link rel="stylesheet" type="text/css" href="css/particles.css">
+						<div id="particles-js"></div>
+						<div id="particles-js2"></div>
+						
+						<script src="js/particles.js"></script>
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc animate-box" data-animate-effect="fadeIn">
+								<h1>Replin &amp; Rindu</h1>
+								<h2>Cinta Bintang Dan Bulan</h2>
+								<div class="simply-countdown simply-countdown-one"></div>
+								<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit/NHQ1ZGdnanMxOWw4Z28xOHZsYmthdGFtZXAgaHlmYWl6YWJ5YW5AbQ?pli=1" target="_blank" class="btn btn-default btn-sm">Remind Me</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</section>
+
+	<section id="couple">
+		<div id="fh5co-couple">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h2>Selamat Datang</h2>
+						<h3>May 5th 2020, Indonesia</h3>
+						<p>Undang Nikah Acara Replin & Rindu</p>
+					</div>
+				</div>
+				<div class="couple-wrap animate-box">
+					<div class="couple-half">
+						<div class="groom">
+							<img src="images/re.jpeg" alt="groom" class="img-responsive">
+						</div>
+						<div class="desc-groom">
+							<h3>Replin</h3>
+							<p>""Di dunia ini, bahkan hal yang paling ilmiah pun dimulai dari seseorang yang memiliki firasat bahwa hal itu ada. Kemudian seseorang membuktikannya setelah fakta. Jadi dibandingkan denganmu, aku sama sekali tidak tahu apa-apa tentang dia... hidup membuktikan cintaku. Aku menikahinya bukan karena aku membuktikan cintaku. Aku menikahinya untuk membuktikan cintaku"</p>
+						</div>
+					</div>
+					<p class="heart text-center"><i class="icon-heart2"></i></p>
+					<div class="couple-half">
+						<div class="bride">
+							<img src="images/ri.jpeg" alt="groom" class="img-responsive">
+						</div>
+						<div class="desc-bride">
+							<h3>Rindu</h3>
+							<p>"Jika kita tinggal di tempat yang besar, saya akan merasa sangat bangga akan hal itu. Jika kita tinggal di tempat kecil, aku selalu bisa merasakan kehangatanmu. Jika sudah tua, kita bisa hidup dengan ketidaknyamanan. Jika baru, perlahan-lahan akan terhapus dengan kenangan baru(...) Saya yakin di mana pun Anda berada akan menjadi tempat saya akan kembali."</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="event">
+		<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/reri.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<span>Special Events</span>
+						<h2>Acara Nikah</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="display-t">
+						<div class="display-tc">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="col-md-6 col-sm-6 text-center">
+									<div class="event-wrap animate-box">
+										<h3>Upacara Utama</h3>
+										<div class="event-col">
+											<i class="icon-clock"></i>
+											<span>4:00 PM</span>
+											<span>6:00 PM</span>
+										</div>
+										<div class="event-col">
+											<i class="icon-calendar"></i>
+											<span>selasa 5</span>
+											<span>May, 2020</span>
+										</div>
+										<p>Rawa Badak City may 12-may-2020</p>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 text-center">
+									<div class="event-wrap animate-box">
+										<h3>Pesta pernikahan</h3>
+										<div class="event-col">
+											<i class="icon-clock"></i>
+											<span>7:00 PM</span>
+											<span>12:00 AM</span>
+										</div>
+										<div class="event-col">
+											<i class="icon-calendar"></i>
+											<span>Selasa 5</span>
+											<span>May, 2020</span>
+										</div>
+										<p>Rawa Badak City may 12-may-2020</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="story">
+		<div id="fh5co-couple-story">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h2>Our Story</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="timeline animate-box">
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/r2.png);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Pertama Kita Bertemu</h3>
+										<span class="date">October 3, 2018</span>
+										<p>"Seorang anak laki-laki berbaring berlumuran darah di tengah jalan pada hari bersalju. Apa yang terjadi padanya? Apakah dia mendapat masalah serius? Nah, dia baru saja jatuh cinta dengan seorang gadis yang sangat imut. Apakah Anda ingin tahu lebih banyak tentang dia?".</p>
+									</div>
+									<div class="timeline-body">
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(images/r3.jpeg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Kencan pertama</h3>
+										<span class="date">October 5, 2018</span>
+										<p>"Ketika Anda menikah, Anda akhirnya hidup bersama dan Anda akan mengetahui hal-hal tentang pasangan Anda yang belum pernah Anda ketahui sebelumnya dan NASA memiliki banyak hal untuk ditemukan dari Tsukasa".</p>
+									</div>
+									<div class="timeline-body">
+									</div>
+								</div>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/r4.jpeg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Dalam suatu hubungan</h3>
+										<span class="date">October 5, 2018</span>
+										<p>"Tebak apa? Ini adalah waktu tepat di mana seorang gadis imut menghadiri protagonis yang sakit di atas kasur sambil menatapnya dengan penuh kasih di sisinya tanpa bergerak selama berjam-jam.".</p>
+									</div>
+									<div class="timeline-body">
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="testimonial">
+		<div id="fh5co-testimonial">
+			<div class="container">
+				<div class="row">
+					<div class="row animate-box">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<span>SEMOGA SUKSES</span>
+							<h2>HARAPAN</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<div class="wrap-testimony">
+								<div class="owl-carousel-fullwidth">
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="images/a6.jpeg" alt="user">
+											</figure>
+											<span>father, via <a href="#" class="twitter">Letter</a></span>
+											<blockquote>
+												<p>“Semoga hari ini menjadi awal dari kehidupan yang panjang dan bahagia bersama.”</p>
+											</blockquote>
+										</div>
+									</div>
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="images/a2.jpeg" alt="user">
+											</figure>
+											<span>Mother, via <a href="#" class="twitter">Letter</a></span>
+											<blockquote>
+												<p>“Semoga Anda mendapatkan yang terbaik saat Anda memulai bab berikutnya dalam hidup Anda.”</p>
+											</blockquote>
+										</div>
+									</div>
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="images/a3.jpg" alt="user">
+											</figure>
+											<span>Ravina, via <a href="#" class="twitter">Twitter</a></span>
+											<blockquote>
+												<p>“Semoga cinta dan kebahagiaan yang Anda rasakan hari ini bersinar sepanjang tahun.”</p>
+											</blockquote>
+										</div>
+									</div>
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="images/a4.jpeg" alt="user">
+											</figure>
+											<span>Rayhan, via <a href="#" class="twitter">Twitter</a></span>
+											<blockquote>
+												<p>“Selamat untuk Anda berdua di hari spesial Anda! Petualangan terbesar Anda baru saja dimulai.”</p>
+											</blockquote>
+										</div>
+									</div>
+									<div class="item">
+										<div class="testimony-slide active text-center">
+											<figure>
+												<img src="images/a5.jpeg" alt="user">
+											</figure>
+											<span>Ipunk hadi, via <a href="#" class="twitter">Twitter</a></span>
+											<blockquote>
+												<p>“Semoga cinta yang Anda bagikan hari ini tumbuh lebih kuat saat Anda menua bersama”</p>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/r1.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Apakah Anda Hadir?</h2>
+					<p>Silakan Isi formulir untuk memberi tahu Anda bahwa Anda hadir. Terima kasih.</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-10 col-md-offset-1">
+					<form class="form-inline" action="mailto:hyfaizabyan@gmail.com">
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="name" class="sr-only">Name</label>
+								<input type="name" class="form-control" id="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<button type="submit" class="btn btn-default btn-block">Kirim Pesan Anda</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p class="icon-music"><i>&nbsp;18 - One Direction</i></p>
+					<p>
+						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop" style="background: rgb(128,111,148);"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+		//Change your date here V V V V V V V V V V V V
+    var now = new Date(new Date("May 5, 2023 04:00:00").getTime() + 200 * 120 * 120 * 2000);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: now.getFullYear(),
+        month: now.getMonth() + 1,
+        day: now.getDate()
+    });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: now.getFullYear(),
+        month: now.getMonth() + 1,
+        day: now.getDate(),
+        enableUtc: false
+    });
+</script>
+
+<script>
+	document.getElementById('mute').style.display = 'none';
+	var x = document.getElementById("myAudio");
+	function playAudio() {
+		x.play();
+		document.getElementById('un-mute').style.display = 'none';
+			document.getElementById('mute').style.display = 'inline-block';
+	}
+	function pauseAudio() {
+		x.pause();
+		document.getElementById('mute').style.display = 'none';
+		document.getElementById('un-mute').style.display = 'inline-block';
+	}
+</script>
+
+<script>
+	$(document).ready(function(){
+		pagenum = 1;
+		function AutoRotate() {
+		   var myele = null;
+		   var allElements = document.getElementsByTagName('label');
+		   for (var i = 0, n = allElements.length; i < n; i++) {
+			   var myfor = allElements[i].getAttribute('for');
+			   if ((myfor !== null) && (myfor == ('slide_2_' + pagenum))) {
+				   allElements[i].click();
+				   break;
+			   }
+		   }
+		   if (pagenum == 5) {
+			   pagenum = 1;
+		   } else {
+			   pagenum++;
+		   }
+		}
+		setInterval(AutoRotate, 5000);
+	});
+</script>
+
+	</body>
+</html>
+
